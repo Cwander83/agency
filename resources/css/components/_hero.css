@@ -1,0 +1,7 @@
+.page-hero {
+    @apply w-full bg-primary max-w-2xl mx-auto;
+}
+
+.page-hero .inner-container {
+    @apply w-[90%] mx-auto bg-secondary pt-20 pb-10 py-8;
+}

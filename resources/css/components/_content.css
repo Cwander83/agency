@@ -1,0 +1,40 @@
+p.is-style-secondary {
+	@apply text-body-lg leading-snug;
+}
+
+p.is-style-work-description {
+	@apply text-xl font-medium mb-8;
+}
+
+.is-style-work {
+	@apply flex items-center mx-auto !max-w-[1440px] w-full;
+}
+.is-style-work .wp-block-column {
+	@apply flex items-start flex-col justify-center p-10;
+}
+
+.is-style-work h2 {
+	@apply text-title-sm font-bold leading-tight uppercase;
+}
+
+
+.is-style-work ul {
+	@apply font-semibold columns-2 w-full list-disc list-inside;
+}
+
+.is-style-work ul li {
+	@apply mb-2;
+
+	&::marker {
+		@apply text-secondary;
+	}
+}
+
+
+hr.is-style-accent {
+	@apply bg-secondary mb-8 border-secondary;	
+}
+
+.is-style-full-width {
+	@apply w-full;
+}

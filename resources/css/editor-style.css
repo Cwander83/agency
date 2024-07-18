@@ -2,12 +2,12 @@
 @import "tailwindcss/utilities";
 
 body {
-    @apply font-sans;
+    @apply font-body;
 }
 
-.wp-block{
+/* .wp-block{
     @apply max-w-screen-xl;
-}
+} */
 
 .wp-block[data-align=wide] {
     @apply max-w-screen-xl;

@@ -2,4 +2,7 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
-@import "custom.css";
+@import "base.css";
+@import "components/_hero.css";
+@import "components/_buttons.css";
+@import "components/_content.css";

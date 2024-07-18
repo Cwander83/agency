@@ -1,0 +1,32 @@
+.wp-block-buttons {
+	@apply flex justify-center items-center gap-4;
+}
+.wp-block-button {
+	@apply uppercase;
+}
+
+.is-style-secondary .wp-block-button__link {
+	@apply rounded-none text-white font-bold bg-black border-2 border-white;
+	/* @apply rounded-none bg-white text-black font-semibold border-2 border-white; */
+
+	transition: all 0.5s ease;
+}
+.is-style-secondary .wp-block-button__link:hover {
+	@apply bg-white text-black;
+	/* @apply rounded-[100px] text-white bg-black; */
+}
+
+.is-style-work-btn {
+	@apply !mt-8;
+}
+
+.is-style-work-btn .wp-block-button__link {
+	@apply rounded-none text-white font-bold bg-black border-2 border-black;
+	/* @apply rounded-none bg-white text-black font-semibold border-2 border-white; */
+
+	transition: all 0.5s ease;
+}
+.is-style-work-btn .wp-block-button__link:hover {
+	@apply bg-white text-black;
+	/* @apply rounded-[100px] text-white bg-black; */
+}
